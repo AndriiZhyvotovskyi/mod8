@@ -130,6 +130,12 @@
         font-size: 20px;
         font-weight: 700;
         text-transform: uppercase;
+        transition-timing-function: linear;
+        transition-duration: 0.3s;
+    }
+    
+    .logotype:hover {
+        color: var(--color-third);
     }
     
     .authorization-button {
@@ -137,12 +143,20 @@
         outline: none;
         background: none;
         border: none;
-        width: 114px;
+        padding: 0 20px 0 20px;
         height: 36px;
         font-size: 0.875rem;
         font-weight: 700;
         text-transform: capitalize;
         color: var(--color-first);
+        cursor: pointer;
+        border-radius: 50px;
+        transition-timing-function: linear;
+        transition-duration: 0.3s;
+    }
+    
+    .authorization-button:hover {
+        background: rgba(128, 128, 128, .5);
     }
     
     .authorization-button:nth-child(2) {
@@ -167,7 +181,9 @@
     
     .search-button {
         outline: none;
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin: 0 auto;
         border: none;
         border-radius: 20px;
@@ -176,10 +192,17 @@
         height: 40px;
         color: var(--color-first);
         font-size: 0.875rem;
+        transition-timing-function: linear;
+        transition-duration: 0.3s;
+    }
+    
+    .search-button:hover {
+        background-color: rgba(255, 78, 80, 0.7);
     }
     
     .partner {
         padding-top: 68px;
+        padding-bottom: 54px;
         text-align: center;
         color: var(--color-second);
     }
@@ -280,10 +303,12 @@
         background-color: rgb(255, 255, 255);
         width: 284px;
         height: 44px;
+        transition-timing-function: linear;
+        transition-duration: 0.3s;
     }
     
-    .transition-item {
-        padding-bottom: 54px;
+    .transition-button:hover {
+        background-color: rgba(255, 78, 80, 0.2);
     }
     
     @media (max-width: 767px) {
@@ -335,6 +360,9 @@
         .search-button {
             width: 226px;
         }
+        .partner {
+            padding-bottom: 40px;
+        }
         .partner__list {
             display: flex;
             flex-wrap: wrap;
@@ -346,9 +374,6 @@
         }
         .section-title {
             margin-bottom: 30px;
-        }
-        .transition-item {
-            padding-bottom: 40px;
         }
     }
     
@@ -380,6 +405,9 @@
         .section-title {
             margin-bottom: 30px;
         }
+        .partner {
+            padding-bottom: 73px;
+        }
         .partner__list {
             display: flex;
             flex-wrap: wrap;
@@ -388,8 +416,5 @@
         }
         .partner__list-item {
             margin-bottom: 34px;
-        }
-        .transition-item {
-            padding-bottom: 73px;
         }
     }
