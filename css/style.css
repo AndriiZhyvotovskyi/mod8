@@ -233,6 +233,7 @@
     
     .image-wrapper {
         position: relative;
+        margin-bottom: 18px;
     }
     
     .image-wrapper::after {
@@ -245,41 +246,34 @@
         border-radius: 50%;
         width: 29px;
         height: 29px;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     
     .image-wrapper-tv::after {
         background-color: rgb(255, 78, 80);
         background-image: url(../img/logo1.png);
-        background-repeat: no-repeat;
-        background-position: center;
     }
     
     .image-wrapper-cup::after {
         background-color: rgb(28, 215, 173);
         background-image: url(../img/logo2.png);
-        background-repeat: no-repeat;
-        background-position: center;
     }
     
     .image-wrapper-nature::after {
         background-color: rgb(255, 165, 7);
         background-image: url(../img/logo3.png);
-        background-repeat: no-repeat;
-        background-position: center;
     }
     
     .image-wrapper-plane::after {
         background-color: rgb(78, 115, 219);
         background-image: url(../img/logo4.png);
-        background-repeat: no-repeat;
-        background-position: center;
     }
     
     .partner__item-title {
         font-size: .875rem;
         text-transform: capitalize;
         margin-bottom: 14px;
-        margin-top: 18px;
     }
     
     .partner__item-description {
