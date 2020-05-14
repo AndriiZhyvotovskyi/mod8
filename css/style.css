@@ -375,15 +375,16 @@
         }
     }
     
-    @media (max-width: 1439px) {
+    @media (max-width: 959px) {
         .partner__list-item:nth-last-child(-n+2) {
             margin-bottom: 36px;
         }
     }
     
-    @media (min-width: 1440px) {
+    @media (min-width: 960px) {
         .container {
-            width: 940px;
+            width: 960px;
+            padding: 0 10px;
         }
         .header {
             background-image: url(../img/background.png);
